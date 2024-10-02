@@ -1,0 +1,22 @@
+{
+  "server_settings": {
+    "host": "localhost",
+    "port": 8765
+  },
+  "starter_message": "{color1}\n\n     ░▒▓███████▓▒░▒▓████████▓▒░▒▓███████▓▒░░▒▓█▓▒░░▒▓█▓▒░▒▓████████▓▒░▒▓███████▓▒░\n    ░▒▓█▓▒░      ░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░\n    ░▒▓█▓▒░      ░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░░▒▓█▓▒▒▓█▓▒░░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░\n     ░▒▓██████▓▒░░▒▓██████▓▒░ ░▒▓███████▓▒░ ░▒▓█▓▒▒▓█▓▒░░▒▓██████▓▒░ ░▒▓███████▓▒░\n           ░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▓█▓▒░ ░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░\n           ░▒▓█▓▒░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▓█▓▒░ ░▒▓█▓▒░      ░▒▓█▓▒░░▒▓█▓▒░\n    ░▒▓███████▓▒░░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░  ░▒▓██▓▒░  ░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░  {color2}By {author}\n\n        ",
+  "server_launch": [
+    "{color1}━━━━━━━━━━━━━━━━━━━━━━━━━━{color2}Server Properties{color1}━━━━━━━━━━━━━━━━━━━━━━━━━━",
+    "{color1}launched at: {color2}{start_time}"
+  ],
+  "client_connection": [
+    "{color1}━━━━━━━━━━━━━━━━━━━━━━━━━━{color2}Client connected{color1}━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+    "{color1}adres {color2}[{client_adres}]{color1} joined at: {color2}{join_time}"
+  ],
+  "client_leave": [
+    "{color1}━━━━━━━━━━━━━━━━━━━━━━━{color2}Client disconnected{color1}━━━━━━━━━━━━━━━━━━━━━━━━━━━",
+    "{color1}adres {color2}[{client_adres}]{color1} left at: {color2}{left_time}"
+  ],
+  "client_message": [
+    "{color1}message from {color2}[{client_adres}]{color1}: {color2}{response}"
+  ]
+}
